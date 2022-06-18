@@ -4,7 +4,7 @@
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 900;
   color: tomato;
   background: white;
@@ -17,9 +17,22 @@ ul {
 }
 
 a {
-  font-size: 22px;
+  font-size: 16px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
 }

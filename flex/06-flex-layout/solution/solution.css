@@ -33,8 +33,9 @@ body {
   flex-direction: column;
 }
 
-button {
+buttons {
   padding: 8px 16px;
+  margin: 8px;
 }
 
 .content {
